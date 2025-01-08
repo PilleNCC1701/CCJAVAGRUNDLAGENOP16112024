@@ -3,8 +3,11 @@
     <fullyQualifiedTypeName name="Rechner1.Rechner"/>
     <fullyQualifiedTypeName name="com.sun.java_cup.internal.runtime.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.awt.font.NumericShaper.Range"/>
     <fullyQualifiedTypeName name="java.awt.font.NumericShaper"/>
     <fullyQualifiedTypeName name="java.time.temporal.ValueRange"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.io.IO"/>
 </qualifiedTypeNameHistroy>
