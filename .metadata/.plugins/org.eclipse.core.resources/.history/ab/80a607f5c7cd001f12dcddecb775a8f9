@@ -1,0 +1,37 @@
+import java.util.Random;
+
+public class LottoGenerator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Random zahl = new Random();
+		int zufallszahl1 = 1+ zahl.nextInt(50);
+		System.out.println(zufallszahl1);
+		
+		
+		Random zahl2 = new Random();
+		int zufallszahl2 = 1+ zahl.nextInt(50);
+		System.out.println(zufallszahl2);
+		
+		Random zahl3 = new Random();
+		int zufallszahl3 = 1+ zahl3.nextInt(50);
+		System.out.println(zufallszahl3);
+		
+		
+		Random zahl4 = new Random();
+		int zufallszahl4 = 1+ zahl4.nextInt(50);
+		System.out.println(zufallszahl4);
+		
+		
+		Random zahl5 = new Random();
+		int zufallszahl15 = 1+ zahl5.nextInt(50);
+		System.out.println(zufallszahl15);
+		
+		Random zahl6 = new Random();
+		int zufallszahl6 = 1+ zahl6.nextInt(50);
+		System.out.println(zufallszahl6);
+		
+	}
+
+}

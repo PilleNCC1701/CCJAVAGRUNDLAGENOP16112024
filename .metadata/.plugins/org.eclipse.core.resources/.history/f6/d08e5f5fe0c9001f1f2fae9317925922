@@ -1,0 +1,19 @@
+package lalabumm;
+import java.util.Scanner;
+import java.lang.reflect.Array;
+
+public class lalabumm {
+public static void main(String[] args) {
+	Scanner scanner= new Scanner(System.in);
+	int [] fuße = new int [4];
+	fuße[0] = 7;
+	fuße[1] = 4;
+	fuße[2] = 9;
+	double fuß = scanner.nextDouble();
+	if (fuß == 1) {
+		System.out.println(fuße[2]);
+	}
+	System.out.println(scanner);
+	
+}
+}

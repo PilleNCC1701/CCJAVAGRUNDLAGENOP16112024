@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class Zahlenabfrage {
+public static void main(String[] args) {
+	
+	Scanner scanner = new Scanner(System.in);
+	int zahl = scanner.nextInt();
+	System.out.println("Geben Sie eine Zahl zwischen Null und Neun ein!");
+	switch (zahl) {
+	case 1 : zahl = (0 -3);
+	System.out.println("Bereich Null bis Drei");
+	break;
+	case 2 : zahl = (4- 7);
+	System.out.println("Bereich Drei bis Sieben");
+	break;
+	case 3 : zahl = (8-9);
+	System.out.println("Bereif Acht bis Neun");
+	break;
+	default :
+		System.out.println("Eingaben ungültig!");
+	scanner.close();
+	}
+}
+}

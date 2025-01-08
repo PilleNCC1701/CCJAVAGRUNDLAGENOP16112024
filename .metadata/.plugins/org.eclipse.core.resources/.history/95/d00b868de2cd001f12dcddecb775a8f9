@@ -1,0 +1,15 @@
+package Rechner1;
+
+import java.util.Scanner;
+
+public class Zinsberechnung {
+
+	public static void main(String[] args) {
+
+		Scanner scanner = new Scanner(System.in);
+		System.out.println(" Geben Sie das anzulegende Kapital mit 2 Nachkommastellen an! ");
+		float kapital = scanner.nextFloat();
+
+		System.out.println(" Ihr anzulegendes Kapital beträgt : " + kapital + " Geld ");
+	}
+}

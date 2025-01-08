@@ -1,0 +1,65 @@
+package Rechner1;
+
+import java.util.Scanner;
+
+public class Zahlenabfrage {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			
+			Scanner scanner = new Scanner(System.in);
+			
+			System.out.println("Geben Sie eine Zahl zwischen Null und Neun ein!");
+			
+			int zahl = scanner.nextInt();
+			
+			
+			switch (zahl) {
+			
+			case 11 : zahl = 0;
+			System.out.println("Bereich Null bis Drei");
+			break;
+			
+			case 21 : zahl = 1;
+			System.out.println("Bereich Null bis Drei");
+			break;
+			
+			case 31 : zahl = 2;
+			System.out.println("Bereich Null bis Drei");
+			break;
+			
+			case 41 : zahl = 3;
+			System.out.println("Bereich Drei bis Sieben");
+			break;
+			
+			case 51 : zahl = 4;
+			System.out.println("Bereich Drei bis Sieben");
+			break;
+			
+			case 61 : zahl = 5;
+			System.out.println("Bereich Drei bis Sieben");
+			break;
+			
+			case 71 : zahl = 6;
+			System.out.println("Bereich Drei bis Sieben");
+			break;
+			
+			case 81 : zahl = 7;
+			System.out.println("Bereich Acht bis Neun");
+			break;
+			
+			case 91 : zahl = 8;
+			System.out.println("Bereich Acht bis Neun");
+			break;
+			case 101 : zahl = 9;
+			System.out.println("Bereich Acht bis Neun");
+			break;
+			
+			default:
+				System.out.println("Eingaben ungültig!");
+			scanner.close();
+			
+			}
+		}
+
+	}

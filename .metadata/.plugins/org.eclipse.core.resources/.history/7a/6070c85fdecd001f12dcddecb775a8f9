@@ -1,0 +1,11 @@
+public class Schleifen1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int n, ai=5;
+		do{ n = 1 ; ai++ ; } while( ai<10 ) ; 
+		int b= n ;
+		System.out.println(b);
+	}
+
+}

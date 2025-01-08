@@ -1,0 +1,45 @@
+package Rechner1;
+import java.util.Scanner;
+
+public class Zinsberechnung {
+
+	public static void main(String[] args) {
+
+		Scanner scanner = new Scanner(System.in);
+		System.out.println(" Geben Sie das anzulegende Kapital mit 2 Nachkommastellen an! ");
+		float kapital = scanner.nextFloat();
+		scanner.nextLine();
+
+		System.out.println(" Ihr anzulegendes Kapital beträgt : " + kapital + " Geld ");
+
+		
+		System.out.println(
+				" Geben Sie den Zinssatz ohne %-Zeichen für das anzulegende Kapital mit bis zu 2 Nachkommastellen an! ");
+		float zinssatz = scanner.nextFloat();
+
+		System.out.println(" Ihr anzulegendes Zinssatzfür das anzulegende Kapital beträgt : " + zinssatz + " % ");
+
+		
+		System.out.println(" Geben Sie die gewünschte Laufzeit für die Anlage in ganzen Jahren an! ");
+		int laufzeit = scanner.nextInt();
+
+		System.out.println(" Ihr Laufzeit für die Anlage beträgt : " + laufzeit + " Jahre ");
+		 
+		String input = scanner.nextLine();
+		System.out.println(" Für Ertrag bitten mit Enter bestätigen! ");
+		
+		scanner.nextLine();
+		float ertrag = kapital + kapital * 0.01f *zinssatz*laufzeit;
+		
+		ertrag = Math.round(ertrag * 100.0f) / 100.0f;
+		
+		if (input.isEmpty())
+			;
+		{
+			System.out.println("Ertrag = " + ertrag);
+		}
+
+		scanner.close();
+			}
+
+}

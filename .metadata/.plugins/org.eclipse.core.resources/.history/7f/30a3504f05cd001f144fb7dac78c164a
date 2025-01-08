@@ -1,0 +1,21 @@
+package Rechner1;
+
+import java.util.Scanner;
+
+public class Zahlenabfrage {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			
+			Scanner scanner = new Scanner(System.in);
+			
+			int zahl = scanner.nextInt();
+			System.out.println("Geben Sie eine Zahl zwischen Null und Neun ein!");
+			
+			switch (zahl) {
+			
+			
+			}
+		}
+
+	}

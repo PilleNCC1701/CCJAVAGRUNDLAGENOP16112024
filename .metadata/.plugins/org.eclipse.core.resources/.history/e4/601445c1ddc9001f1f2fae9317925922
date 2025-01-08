@@ -1,0 +1,12 @@
+package lalabumm;
+
+import java.lang.reflect.Array;
+
+public class lalabumm {
+public static void main(String[] args) {
+	int [] fuß = new int [4];
+	fuß[0] = 7;
+	System.out.println(fuß [0]);
+	
+}
+}

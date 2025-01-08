@@ -1,0 +1,26 @@
+package Rechner1;
+
+import java.util.Scanner;
+
+public class Zinsberechnung {
+
+	public static void main(String[] args) {
+
+		Scanner scanner = new Scanner(System.in);
+		System.out.println(" Geben Sie das anzulegende Kapital mit 2 Nachkommastellen an! ");
+		float kapital = scanner.nextFloat();
+
+		System.out.println(" Ihr anzulegendes Kapital beträgt : " + kapital + " Geld ");
+		scanner.close();
+
+		Scanner scanner2 = new Scanner(System.in);
+		System.out.println(" Geben Sie den Zinssatz ohne %-Zeichen für das anzulegende "
+				+ "Kapital mit bis zu 2 Nachkommastellen an! ");
+		float Zinssatz = scanner2.nextFloat();
+
+		System.out.println(" Ihr anzulegendes Zinssatzfür das anzulegende Kapital beträgt : " + Zinssatz + " % ");
+		scanner.close();
+		scanner2.close();
+	}
+
+}
